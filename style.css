@@ -1,0 +1,53 @@
+body {
+    background: #1e1e2f;
+    color: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 30px;
+    margin: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: #2e2e3e;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #7ddcff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.form input, .form select, .form button {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+}
+
+.form button {
+    background: #7ddcff;
+    color: #1e1e2f;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.messages {
+    margin-top: 30px;
+}
+
+.message {
+    background: #3e3e4e;
+    padding: 15px;
+    border-left: 4px solid #7ddcff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
